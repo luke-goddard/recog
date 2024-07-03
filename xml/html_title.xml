@@ -754,6 +754,14 @@
     <param pos="1" name="hw.product"/>
   </fingerprint>
 
+  <fingerprint pattern="(?i)^([a-zA-Z0-9\-\+]+) - Teltonika Networks$">
+    <description>Teltonika Routers</description>
+    <example hw.product="RUTX50">RUTX50 - Teltonika Networks</example>
+    <param pos="0" name="hw.vendor" value="Teltonika"/>
+    <param pos="0" name="hw.device" value="Router"/>
+    <param pos="1" name="hw.product"/>
+  </fingerprint>
+
   <fingerprint pattern="^(?:NETGEAR|NetGear) Router ([a-zA-Z0-9\-\+]+)$">
     <description>Netgear Routers</description>
     <example hw.product="WNR2000v4">NETGEAR Router WNR2000v4</example>
